@@ -1,0 +1,21 @@
+{
+  "name": "jenkins-integration",
+  "version": "1.0.0",
+  "description": "Test Github's Jenkins Integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "mocha test/**/**/*.* --timeout=10000 --exit"
+  },
+  "author": "Hasimy",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^9.1.1",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
